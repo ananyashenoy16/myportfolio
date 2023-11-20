@@ -63,7 +63,7 @@ h1{
     height: 35px;
 }
 .skills div:hover{
-    transform: translateY(-20px);
+    transform: translateY(-10px);
 }
 Link{
     text-decoration: none;

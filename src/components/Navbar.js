@@ -12,7 +12,7 @@ function Navbar() {
     setNavbar(value);
   }
   const location =useLocation();
-  const [locpath,setlocpath] =useState("/home");
+  const [locpath,setlocpath] =useState('/home');
   // const pageloc = () => {
   //   setlocpath(location.pathname);
   // }

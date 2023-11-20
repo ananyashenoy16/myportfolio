@@ -21,6 +21,7 @@ function Home() {
           Hello, I am <br />
           <span contenteditable="true">Ananya K</span>
         </h1>
+        <button class="cv">Download CV</button>
       </div>
     </div>
     <Aboutus/>

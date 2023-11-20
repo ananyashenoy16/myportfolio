@@ -32,10 +32,10 @@ export const Contact = () => {
            <p><br/>Phone No:+91 9346574656<br/> Mail ID:ananyashenoy62@gmail.com <br/>
            </p>
            <div className="all">
-             <img src={linkedin} alt=""></img>
-             <img src={github} alt="" class="github1"></img>
+            <a href="https://www.linkedin.com/in/ananya-k-7607b4228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><img src={linkedin} alt=""></img></a>
+            <a href="https://github.com/ananyashenoy16"><img src={github} alt="" class="github1"></img></a>
              <img src={twitter} alt=""></img>
-             <img src={instagram} alt="" class="instagram"></img>
+             <a href="https://instagram.com/anany_a16?igshid=YTQwZjQ0NmI0OA=="><img src={instagram} alt="" class="instagram"></img></a>
            </div>
         </div>
     </div>
