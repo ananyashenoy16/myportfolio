@@ -1,0 +1,150 @@
+.head{
+    font-family: s;
+    font-size: 50px;
+    color: #6704a8;
+}
+.myskills{
+    background: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    
+    display: flex;
+}
+.web ,
+.prgm,
+.tools{
+    margin: 40px;
+    padding: 20px;
+    width: 380px;
+    height: 380px;
+    border:none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow:5px 5px 10px 7px hsl(276, 95%, 34%,0.7);
+    align-items: center;
+    justify-content: center;
+   display: block;
+   transition: background 0.7s, transform 0.7s;
+   /* flex-wrap: wrap; */
+}
+h1{
+    color: #fff;
+}
+
+.skm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sk{
+    padding: 20px;
+   
+}
+.sk p{
+    color: #fff;
+}
+.github{
+    height: 50px;
+}
+.react{
+    margin-top: 13px;
+    width: 35px;
+    height: 35px;
+}
+.php{
+    margin-top: 20px;
+    width:40px;
+    height: 35px;
+}
+.skills div:hover{
+    transform: translateY(-20px);
+}
+Link{
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width:500px){
+   
+    .web{
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:300px;
+        height: 250px;
+        transition: background 0.5s, transform 0.5s;
+
+    }
+    .web h1{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .skills{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width:400px;
+        margin: 0px;
+        padding: 35px;
+    }
+  .sk{
+    width:40px;
+    height: 40px;
+    padding-right: 45px;
+    padding-top: 15px;
+    }
+   .sk img{
+    
+    height: 40px;
+    width: 40px;
+   }
+   .sk p{
+    font-size: 12px;
+   }
+  .skm{
+    margin: 0;
+    padding: 0;
+    height:fit-content;
+  }
+  .prgm,
+  .tools{
+    width:300px;
+    height: 180px;
+    margin: 13px;
+    margin-bottom: 30px;
+    padding: 10px;
+    transition: background 0.5s, transform 0.5s;
+   }
+  /* .web div{
+    padding: 10px;
+    margin: 10px;
+} */
+
+.heading{
+    margin: 0;
+    padding: 0;
+}
+.skills div:hover{
+    transform: translateY(-10px);
+}
+.react{
+ margin-top: 25px;
+}
+.mysql{
+    margin-top: 25px; 
+}
+.github{
+    margin-top: 25px; 
+}
+}
