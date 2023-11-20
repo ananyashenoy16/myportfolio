@@ -4,7 +4,25 @@ import linkedin from "../svg/linkedin1.svg"
 import twitter from "../svg/twitter1.svg"
 import instagram from "../svg/instagram.svg"
 import github from "../svg/github1.svg"
-function Contact() {
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+export const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_bwnknw5', 'template_5gaa79d', form.current, 'vwSrJ918OllPQ-NVX')
+      .then((result) => {
+          console.log(result.text);
+          alert("form submitted");
+          form.current.reset();
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+ 
   return (
     <div classNmae="mymainpage">
     <div className="CPage">
@@ -25,7 +43,8 @@ function Contact() {
       <h1>Drop a Message! </h1>
       <div className="contact">
         <div class="cdiv">
-          <form action="https://formspree.io/f/mvojnweq" method="POST">
+        <form ref={form} onSubmit={sendEmail}>
+          {/* https://formspree.io/f/mvojnweq */}
             <div class="input-box">
               <label for="">
                 <input type="text" placeholder="Name" name="name" required />
@@ -49,7 +68,7 @@ function Contact() {
             <div class="input-box">
               <label>
                 
-                <textarea
+                <textarea name="msg"
                   placeholder="enter your Message here.."
                   rows="4"
                   cols="50"
@@ -58,7 +77,7 @@ function Contact() {
               </label>
             </div>
 
-            <button class="btn" id="but">
+            <button class="btn" value="submit" id="but">
               Send
             </button>
           </form>
@@ -71,6 +90,8 @@ function Contact() {
      <p> &#169; This Page is Owned by <span> Ananya K</span>| All Rights Reserved | </p>
    </div>
    </div>
+   
   );
+
 }
 export default Contact;
