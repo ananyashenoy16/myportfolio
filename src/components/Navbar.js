@@ -4,6 +4,7 @@ import "../css/Navbar.css";
 import ham from "../svg/ham1.svg";
 import close from "../svg/close2.svg";
 import { Link,useLocation } from "react-router-dom";
+
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Navbar() {
@@ -12,11 +13,11 @@ function Navbar() {
     setNavbar(value);
   }
   const location =useLocation();
-  const [locpath,setlocpath] =useState('/home');
+  const [locpath,setlocpath] =useState("/");
   // const pageloc = () => {
   //   setlocpath(location.pathname);
   // }
-
+  
   useEffect(() =>{
     setlocpath(location.pathname);
     }, [location]);
@@ -26,13 +27,13 @@ function Navbar() {
       <div class="container">
            
         <nav className="navbar">
-        <img src={Name} alt="name" class="logo"/>
+        <img src={Name} alt="name" class="logo" />
           <ul>
           {
-               locpath==='/home'?
+               locpath==='/'?
                ""
                :
-               <li><Link to="/home">Home</Link></li>
+               <li><Link to="/">Home</Link></li>
           }
             {
                locpath==='/about'?
@@ -75,10 +76,10 @@ function Navbar() {
               <img src={close} alt="" class="close"></img>
               </div>
               {
-               locpath==='/home'?
+               locpath==='/'?
                ""
                :
-               <li><Link to="/home"onClick={() => hamburger(false)}>Home</Link></li>
+               <li><Link to="/"onClick={() => hamburger(false)}>Home</Link></li>
               }
               {
                locpath==='/about'?
@@ -98,12 +99,7 @@ function Navbar() {
             :
             <li><Link to="/projects">Projects</Link></li>
        }
-           {
-               locpath==='/social'?
-               ""
-               :
-               <li><Link to ='/social'>Social</Link></li>
-          }
+          
             {
                locpath==='/contact'?
                ""

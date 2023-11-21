@@ -89,6 +89,7 @@ nav ul li a:hover{
  /* ----------------sidemenu------------- */
 
 .sidebar{
+
    position: relative;
   display: block;
 }

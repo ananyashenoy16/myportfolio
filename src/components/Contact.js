@@ -6,7 +6,7 @@ import instagram from "../svg/instagram.svg"
 import github from "../svg/github1.svg"
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import './Loader.js'
 export const Contact = () => {
   const form = useRef();
 
@@ -29,7 +29,7 @@ export const Contact = () => {
         <div className="mysocial">
         <div className="social">
            <h1>Contact Information</h1>
-           <p><br/>Phone No:+91 9346574656<br/> Mail ID:ananyashenoy62@gmail.com <br/>
+           <p>Phone No:+91 9346574656<br/> Mail ID:ananyashenoy62@gmail.com <br/>
            </p>
            <div className="all">
             <a href="https://www.linkedin.com/in/ananya-k-7607b4228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><img src={linkedin} alt=""></img></a>
