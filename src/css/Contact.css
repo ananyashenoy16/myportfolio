@@ -85,6 +85,7 @@
     font-weight: 600;
     color:#333;
     margin-top: 20px;
+    transition: 0.5s;
 }
 textarea{
    
@@ -164,7 +165,13 @@ textarea::placeholder{
     padding: 0;
     /* border:5px solid  #fff; */
 }
-
+.load{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    transform: skew(90deg,180deg,360deg);
+    transition: 0.5s;
+}
 
 /* ------------------footer--------------------- */
 .footer{

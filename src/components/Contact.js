@@ -6,18 +6,23 @@ import instagram from "../svg/instagram.svg"
 import github from "../svg/github1.svg"
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import './Loader.js'
+import load from  '../svg/load.gif'
+import { useState } from "react";
 export const Contact = () => {
   const form = useRef();
-
+  const [loader,setloader] =useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
+    setloader(true);
+   
 
     emailjs.sendForm('service_bwnknw5', 'template_5gaa79d', form.current, 'vwSrJ918OllPQ-NVX')
       .then((result) => {
+        setloader(false);
           console.log(result.text);
           alert("form submitted");
           form.current.reset();
+        
       }, (error) => {
           console.log(error.text);
       });
@@ -76,16 +81,24 @@ export const Contact = () => {
                 ></textarea>
               </label>
             </div>
-
-            <button class="btn" value="submit" id="but">
+             {
+              !loader?
+              <button class="btn" value="submit" id="but">
               Send
             </button>
+            :
+            <img src={load} alt="" class="load"/>
+             }
+           
+          
           </form>
           </div>
         </div>
       </div>
-     
+
     </div>
+    
+   
      <div className="footer">
      <p> &#169; This Page is Owned by <span> Ananya K</span>| All Rights Reserved | </p>
    </div>
