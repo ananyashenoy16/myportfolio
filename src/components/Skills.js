@@ -14,13 +14,18 @@ import git from "../svg/git.svg";
 import github from "../svg/github1.svg";
 import vscode from "../svg/vscode.svg";
 import figma from "../svg/figma.svg";
-
+import Card from "./Card.js";
 function Skills() {
+  const comp = [
+    { id: 1, p: "hello this is my first components", h: "" },
+    { id: 2, p: "hello this is my second paragaraph",h:""},
+    { id: 3, p: "hello this is my third paragaraph",h:""}
+  ];
   return (
     <div class="myskills">
       <h1 class="head"> Skills</h1>
       <div class="skills">
-        <div class="web">
+        <div class="web" data-aos="flip-up">
           <div class="heading">
             <h1>Web Development</h1>
           </div>
@@ -55,7 +60,7 @@ function Skills() {
             </div>
           </div>
         </div>
-        <div class="prgm">
+        <div class="prgm" data-aos="flip-up">
           <div class="heading">
             <h1>Programming</h1>
           </div>
@@ -78,7 +83,7 @@ function Skills() {
             </div>
           </div>
         </div>
-        <div class="tools">
+        <div class="tools"data-aos="flip-up">
           <div class="heading">
             <h1>Tools</h1>
           </div>
@@ -102,6 +107,12 @@ function Skills() {
           </div>
         </div>
       </div>
+      {
+        comp.map((item)=>(
+          <Card Skills={item}/>
+        ))
+
+      }
     </div>
   );
 }

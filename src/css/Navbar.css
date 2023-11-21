@@ -27,6 +27,7 @@
     padding: 0;
  }
  nav ul li{
+    
     display: inline-block;
     list-style: none;
     margin:20px 30px;
@@ -61,6 +62,10 @@ nav ul li a:hover{
    position: fixed;
    top: 0;
 } */
+.sun{
+   height: 50px;
+   
+}
  /* ---------------Media Queryyyyyyy----------- */
  @media screen and  (max-width:500px) {
    .container{

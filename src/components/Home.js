@@ -9,14 +9,12 @@ import m3 from "../Images/girll.jpg";
 function Home() {
   return (
     <div class="allcomp">
-    
-   
     <div class="home">
       <div class="photo">
-        <img src={character} alt="character" class="char" />
+        <img src={character} alt="character" class="char"  data-aos="zoom-out" />
         <img src={m3} alt="char" class="m2" />
       </div>
-      <div class="header-text">
+      <div  data-aos="slide-right" class="header-text">
         <h1>
           Hello, I am <br />
           <span contenteditable="true">Ananya K</span>

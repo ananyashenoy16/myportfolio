@@ -52,18 +52,19 @@
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    padding: 15px;
    /* border: 1px solid #fff; */
-  
+   font-weight: 500;
    border-radius:5px;
    color: #fff;
    background-color: #6704a8;
  }
  .cv:hover{
-   /* padding: 20px; */
+   color: #6704a8;
    transition: 0.5s;
-   background-color: #000;
-   border: none;
+   background-color:white;
+   border:3px solid#6704a8 ;
    outline: none;
-   box-shadow: 2px 2px 5px  #fff;
+   font-weight: 500;
+   box-shadow: 2px 2px 5px  #6704a8;
  }
  @keyframes animate
  {

@@ -4,7 +4,7 @@ import "../css/Navbar.css";
 import ham from "../svg/ham1.svg";
 import close from "../svg/close2.svg";
 import { Link,useLocation } from "react-router-dom";
-
+import sun from '../svg/sun1.svg';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Navbar() {
@@ -24,9 +24,9 @@ function Navbar() {
 
   return (
     <div id="header">
-      <div class="container">
+      <div className="container">
            
-        <nav className="navbar">
+        <nav class="navbar">
         <img src={Name} alt="name" class="logo" />
           <ul>
           {
@@ -64,13 +64,16 @@ function Navbar() {
           <div class="icons" onClick={() => hamburger(true)}>
               <img src={ham} alt="" class="ham"></img>
             </div>
+            {/* <div class="sun" >
+              <img src={sun} alt="" class="sun"></img>
+            </div>  */}
         </nav>
       </div>
       {
       navbar ? (
-        <div className="container">
+        <div class="container">
          
-          <nav className="sidebar">
+          <nav class="sidebar">
             <ul>
             <div class="icons" onClick={() => hamburger(false)}>
               <img src={close} alt="" class="close"></img>

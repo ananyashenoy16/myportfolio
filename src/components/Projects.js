@@ -9,7 +9,7 @@ function Projects(){
         <div class="contain">
             <h1 class="sub-title">Projects</h1>
             <div class="card-list">
-                <div class="card">
+                <div class="card"  data-aos="flip-right">
                     <img src={cec } alt="" class="img"/>
                     <h2>CEC Website Clone</h2>
                     <div class="layer">
@@ -17,7 +17,7 @@ function Projects(){
                         <a href="https://college-website-gray.vercel.app/"><img src={link} alt=""></img></a>
                     </div>
                     </div>
-                 <div class="card">
+                 <div class="card" data-aos="flip-right">
                  <img src={food} alt="" class="img"/>
                     <h2>Food-Menu</h2>
                     <div class="layer">
@@ -26,7 +26,7 @@ function Projects(){
                     </div>
     
                 </div>
-                <div class="card">
+                <div class="card" data-aos="flip-right">
                 <img src={play } alt="" class="img"/>
                     <h2>My Playlist</h2>
                     <div class="layer">

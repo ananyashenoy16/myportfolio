@@ -29,9 +29,9 @@ export const Contact = () => {
   };
  
   return (
-    <div classNmae="mymainpage">
+    <div className="mymainpage">
     <div className="CPage">
-        <div className="mysocial">
+        <div className="mysocial" data-aos="flip-left">
         <div className="social">
            <h1>Contact Information</h1>
            <p>Phone No:+91 9346574656<br/> Mail ID:ananyashenoy62@gmail.com <br/>
@@ -44,24 +44,24 @@ export const Contact = () => {
            </div>
         </div>
     </div>
-        <div className="ct">
+        <div className="ct" data-aos="flip-left">
       <h1>Drop a Message! </h1>
-      <div className="contact">
+      <div className="contact" >
         <div class="cdiv">
         <form ref={form} onSubmit={sendEmail}>
           {/* https://formspree.io/f/mvojnweq */}
             <div class="input-box">
-              <label for="">
+              <label>
                 <input type="text" placeholder="Name" name="name" required />
               </label>
             </div>
             <div class="input-box">
-              <label for="">
+              <label>
                 <input type="email" placeholder="email" name="email" required />
               </label>
             </div>
             <div class="input-box">
-              <label for="">
+              <label>
                 <input
                   type="phone number"
                   placeholder="Phone Number"
