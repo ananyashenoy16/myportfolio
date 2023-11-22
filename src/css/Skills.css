@@ -1,5 +1,5 @@
 .head{
-    font-family: s;
+   
     font-size: 50px;
     color: #6704a8;
 }
@@ -12,7 +12,6 @@
     align-items: center;
 }
 .skills{
-    
     display: flex;
 }
 .web ,
@@ -28,7 +27,6 @@
     box-shadow:5px 5px 10px 7px hsl(276, 95%, 34%,0.7);
     align-items: center;
     justify-content: center;
-   display: block;
    transition: background 0.7s, transform 0.7s;
    /* flex-wrap: wrap; */
 }
@@ -42,9 +40,19 @@ h1{
     align-items: center;
     flex-wrap: wrap;
 }
-.sk{
+/* .sk img{
+    width: 20px;
     padding: 20px;
    
+} */
+.html1{
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.sk{
+    padding: 15px;
 }
 .sk p{
     color: #fff;
@@ -69,53 +77,54 @@ Link{
     text-decoration: none;
     color: #fff;
 }
+.cards
+{
+    display: flex;
+}
 @media (max-width:500px){
-   
+    .head{
+        font-size: 40px;
+    }
     .web{
         align-items: flex-start;
         justify-content: flex-start;
         margin: 10px;
-        margin-bottom: 30px;
-        padding: 20px;
-        display:flex;
-        flex-direction: column;
+        display: flex;
         flex-wrap: wrap;
         width:300px;
-        height: 250px;
-        transition: background 0.5s, transform 0.5s;
-
+        height: 180px;
+       
     }
     .web h1{
         margin: 0;
         padding: 0;
     }
-    
     .skills{
         display: block;
         justify-content: center;
+        display: flex;
         align-items: center;
         width:400px;
         margin: 0px;
-        padding: 35px;
+        padding: 10px;
     }
-  .sk{
-    width:40px;
-    height: 40px;
-    padding-right: 45px;
-    padding-top: 15px;
+   .sk{
+    display: flex;
+    width:70px;
+    height: 70px;
+    padding: 10px;
+    padding-right:5px;
+    padding-top: 5px;
+    transition: background 0.5s, transform 0.5s;
     }
-   .sk img{
-    
-    height: 40px;
-    width: 40px;
-   }
    .sk p{
     font-size: 12px;
    }
   .skm{
+    align-items: flex-start;
+    justify-content: flex-start;
     margin: 0;
-    padding: 0;
-    height:fit-content;
+    padding: 5px;
   }
   .prgm,
   .tools{
@@ -123,14 +132,9 @@ Link{
     height: 180px;
     margin: 13px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 30px;
     transition: background 0.5s, transform 0.5s;
    }
-  /* .web div{
-    padding: 10px;
-    margin: 10px;
-} */
-
 .heading{
     margin: 0;
     padding: 0;
@@ -138,13 +142,27 @@ Link{
 .skills div:hover{
     transform: translateY(-10px);
 }
-.react{
+/* .react{
  margin-top: 25px;
 }
 .mysql{
     margin-top: 25px; 
 }
 .github{
+    
     margin-top: 25px; 
+} */
+.cards
+{
+    display: flex;
+    flex-direction: column;
+}
+.sk img{
+    padding: 0px;
+}
+.html1{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
 }
 }

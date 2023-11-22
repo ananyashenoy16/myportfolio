@@ -64,8 +64,8 @@ function Navbar() {
           <div class="icons" onClick={() => hamburger(true)}>
               <img src={ham} alt="" class="ham"></img>
             </div>
-            {/* <div class="sun" >
-              <img src={sun} alt="" class="sun"></img>
+            {/* <div id="sun" >
+              <img src={sun} alt="" class='sun'></img>
             </div>  */}
         </nav>
       </div>

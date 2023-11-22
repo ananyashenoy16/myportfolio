@@ -6,6 +6,7 @@
     color:#a59daa;
  }
  .row{
+   width: 100%;
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -62,8 +63,8 @@
       padding: 10px;
    }
    .myph{
-      width: 150px;
-      height: 200px;
+      width: 220px;
+      height: 300px;
    }
    .about-col1{
      padding: 10px;
@@ -78,9 +79,24 @@
    .about-col2 p{
       text-align: left;
       margin-top: 10px;
-      font-size: 20px;
+      font-size: 15px;
    }
+   .about-col2  p span{
+      font-size: 15px;
+   }
+
    .education h1{
      font-size: 30px;
+   }
+   .education li p{
+      margin: 10px;
+      font-size: 15px;
+   }
+   .education li{
+      font-size: 15px;
+      margin: 0px;
+   }
+   .education ul{
+   padding: 0px;
    }
  }

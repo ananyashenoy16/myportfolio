@@ -48,7 +48,7 @@
     padding: 10px 20px;
     border-radius:10px;
 }
-.cdiv h1{
+.ct h1{
     font-size: 20px ;
     text-align: center;
 
@@ -186,8 +186,8 @@ textarea::placeholder{
     .social{
         justify-content: center;
         align-items: center;
-        width:500px;
-        height: 300px;
+        width:400px;
+        height: 260px;
         /* border-radius: 15px; */
         border:none;
         outline:none;
@@ -210,9 +210,9 @@ textarea::placeholder{
          padding: 20px;
     }
     .ct{
-        margin: 60px;
+        margin: 25px ;
        width: 350px; 
-       height: 520px;
+       height: 450px;
     }
     .cdiv{
         width: 350px;
@@ -223,12 +223,11 @@ textarea::placeholder{
         padding: 0px;
     }
     .social h1{
-        font-size: 45px;
+        font-size: 35px;
     }
     .social p{
         padding-top: 0px;
-
-       font-size: 15px;
+       font-size: 12px;
     }
     .all{
         padding: 0;
@@ -241,5 +240,13 @@ textarea::placeholder{
     }
     .all img{
         height: 40px;
+    }
+    .ct h1{
+        padding: 0;
+        margin: 0;
+        color:#fff;
+    }
+    .contact{
+        margin: 0;
     }
 }

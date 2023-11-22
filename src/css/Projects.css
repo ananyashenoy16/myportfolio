@@ -43,7 +43,6 @@
 .card-list div {
     display: flex;
     margin-top: 20px;
-    ;
     border-radius: 10px;
 
 }
@@ -135,6 +134,6 @@
     }
     .card-list {
         padding: 10px;
-        margin-left: 1%;
+       
     }
 }

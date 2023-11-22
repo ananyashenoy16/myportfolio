@@ -1,31 +1,31 @@
 import "../css/Skills.css";
-import html from "../svg/html5.svg";
-import css from "../svg/CSS.svg";
-import js from "../svg/js.svg";
-import bootstrap from "../svg/bootstrap.svg";
-import react from "../svg/react.svg";
-import php from "../svg/php.svg";
-import mysql from "../svg/mysql.svg";
-import c from "../svg/c.svg";
-import cpp from "../svg/cpp.svg";
-import py from "../svg/python.svg";
-import java from "../svg/java.svg";
-import git from "../svg/git.svg";
-import github from "../svg/github1.svg";
-import vscode from "../svg/vscode.svg";
-import figma from "../svg/figma.svg";
 import Card from "./Card.js";
 function Skills() {
   const comp = [
-    { id: 1, p: "hello this is my first components", h: "" },
-    { id: 2, p: "hello this is my second paragaraph",h:""},
-    { id: 3, p: "hello this is my third paragaraph",h:""}
+    {
+      h: "Web Development",
+      imgpath: [
+       "html","css","js","react",
+      ],
+      p: ["html","css","js","php","react","mysql"],
+    
+    h1: "Programming",
+    imgpath1: [
+     "C","Cpp","Java","Python"],
+    p1: ["C","C++","Java","Python"],
+
+    h2: "Tools",
+    imgpath2: [ "git","github","figma","vscode"],
+    p2: ["Git","Github","Figma","VSCode"],
+  },
   ];
+
+  
   return (
     <div class="myskills">
       <h1 class="head"> Skills</h1>
       <div class="skills">
-        <div class="web" data-aos="flip-up">
+        {/* <div class="web" data-aos="flip-up">
           <div class="heading">
             <h1>Web Development</h1>
           </div>
@@ -59,8 +59,8 @@ function Skills() {
               <p>mySql</p>
             </div>
           </div>
-        </div>
-        <div class="prgm" data-aos="flip-up">
+        </div> */}
+        {/* <div class="prgm" data-aos="flip-up">
           <div class="heading">
             <h1>Programming</h1>
           </div>
@@ -82,8 +82,8 @@ function Skills() {
               <p>Java</p>
             </div>
           </div>
-        </div>
-        <div class="tools"data-aos="flip-up">
+        </div> */}
+        {/* <div class="tools" data-aos="flip-up">
           <div class="heading">
             <h1>Tools</h1>
           </div>
@@ -105,14 +105,11 @@ function Skills() {
               <p>Figma</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
-      {
-        comp.map((item)=>(
-          <Card Skills={item}/>
-        ))
-
-      }
+      {comp.map((item) => (
+        <Card Skills={item} />
+      ))}
     </div>
   );
 }

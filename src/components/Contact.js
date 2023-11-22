@@ -46,7 +46,7 @@ export const Contact = () => {
     </div>
         <div className="ct" data-aos="flip-left">
       <h1>Drop a Message! </h1>
-      <div className="contact" >
+      <div className="contact">
         <div class="cdiv">
         <form ref={form} onSubmit={sendEmail}>
           {/* https://formspree.io/f/mvojnweq */}
