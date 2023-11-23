@@ -5,7 +5,6 @@ import Home  from './components/Home';
 import Aboutus from './components/Aboutus';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-
 import Projects from './components/Projects';
 function App() {
   return (
@@ -16,15 +15,11 @@ function App() {
         <Route path="/" element={<Home/>}/>
          <Route path="/about" element={<Aboutus/>}/>
          <Route path="/skills" element={<Skills/>}/>
-         <Route path="/contact" element={<Contact/>}/>
          <Route path='/projects' element={<Projects/>}/>
+         <Route path="/contact" element={<Contact/>}/>
        </Routes>
      </BrowserRouter>
 
-    {/* <Navbar/>
-    <Home/>
-    <Aboutus/>
-    <Skills/> */}
     </div>
   );
 }

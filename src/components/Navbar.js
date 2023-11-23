@@ -14,14 +14,10 @@ function Navbar() {
   }
   const location =useLocation();
   const [locpath,setlocpath] =useState("/");
-  // const pageloc = () => {
-  //   setlocpath(location.pathname);
-  // }
   
   useEffect(() =>{
     setlocpath(location.pathname);
     }, [location]);
-
   return (
     <div id="header">
       <div className="container">

@@ -74,7 +74,7 @@ export const Contact = () => {
               <label>
                 
                 <textarea name="msg"
-                  placeholder="enter your Message here.."
+                  placeholder=" enter your Message here.."
                   rows="4"
                   cols="50"
                   required

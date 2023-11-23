@@ -3,7 +3,6 @@ import "../css/Home.css";
 import Aboutus from './Aboutus';
 import Contact from "./Contact";
 import Skills from './Skills';
-
 import Projects from "./Projects";
 import m3 from "../Images/girll.jpg";
 function Home() {
@@ -19,7 +18,7 @@ function Home() {
           Hello, I am <br />
           <span contenteditable="true">Ananya K</span>
         </h1>
-        <button class="cv">Download CV</button>
+        <a href="../Images/myCV.pdf" download="Ananya.pdf"><button class="cv">Download CV</button></a>
       </div>
     </div>
     <Aboutus/>

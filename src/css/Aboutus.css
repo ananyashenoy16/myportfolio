@@ -74,26 +74,27 @@
    }
    .about-col2 h1{
       padding: 0px;
-      font-size: 40px;
+      font-size: 50px;
    }
    .about-col2 p{
       text-align: left;
       margin-top: 10px;
-      font-size: 15px;
+      font-size: 18px;
    }
    .about-col2  p span{
-      font-size: 15px;
+      font-size: 18px;
    }
 
    .education h1{
+      padding-top: 30px;
      font-size: 30px;
    }
    .education li p{
       margin: 10px;
-      font-size: 15px;
+      font-size: 18px;
    }
    .education li{
-      font-size: 15px;
+      font-size: 18px;
       margin: 0px;
    }
    .education ul{
