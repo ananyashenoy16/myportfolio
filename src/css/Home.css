@@ -28,7 +28,7 @@
  }
 
  .header-text h1{
-   text-shadow:0 0 10px #5800FF;
+   text-shadow:0 0 10px #04009A;
     font-size: 50px;
     color: #fff;
     margin-left: 5px;
@@ -58,13 +58,13 @@
    background-color: #04009A;
  }
  .cv:hover{
-   color: #5800FF;
+   color: #04009A;
    transition: 0.5s;
    background-color:white;
    border:3px solid#04009A ;
    outline: none;
    font-weight: 500;
-   box-shadow: 2px 2px 5px #5800FF;
+   box-shadow: 2px 2px 5px #04009A;
  }
  @keyframes animate
  {

@@ -3,7 +3,7 @@ import Card from "./Card.js";
 function Skills() {
   const comp = [
     {
-      h: "Web Development",
+      h: " Web-Development",
       imgpath: [
        "html","css","js","react",
       ],

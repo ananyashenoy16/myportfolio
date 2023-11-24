@@ -81,7 +81,7 @@ nav ul li a:hover{
    }
    
    .logo{
-      width:200px;
+      width:100px;
       margin-left: 15px;
      }
    
@@ -101,7 +101,7 @@ nav ul li a:hover{
 }
 .sidebar ul{
   position: fixed;
-  background: #6704a8;
+  background: #04009a;
   top: 0px;
   right:0;
   width: 200px;

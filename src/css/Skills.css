@@ -86,6 +86,7 @@ Link{
         font-size: 40px;
     }
     .web{
+        border-radius: 70px 10px 70px 10px;
         align-items: flex-start;
         justify-content: flex-start;
         margin: 10px;
@@ -96,6 +97,7 @@ Link{
        
     }
     .web h1{
+        
         margin: 0;
         padding: 0;
     }
@@ -121,13 +123,19 @@ Link{
     font-size: 12px;
    }
   .skm{
+    
     align-items: flex-start;
     justify-content: flex-start;
     margin: 0;
     padding: 5px;
   }
+  .heading h1{
+    
+    font-size: 30px;
+  }
   .prgm,
   .tools{
+    border-radius: 70px 10px 70px 10px;
     width:300px;
     height: 180px;
     margin: 13px;
@@ -136,6 +144,7 @@ Link{
     transition: background 0.5s, transform 0.5s;
    }
 .heading{
+  
     margin: 0;
     padding: 0;
 }
