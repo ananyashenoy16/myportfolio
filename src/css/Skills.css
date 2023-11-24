@@ -1,11 +1,11 @@
 .head{
    
     font-size: 50px;
-    color: #6704a8;
+    color: #fff;
 }
 .myskills{
     background: #000;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,8 +23,8 @@
     height: 380px;
     border:none;
     outline: none;
-    border-radius: 30px;
-    box-shadow:5px 5px 10px 7px hsl(276, 95%, 34%,0.7);
+    border-radius: 120px 10px 100px 10px;
+    box-shadow:5px 5px 10px 7px hsl(242, 100%, 30%,0.7);
     align-items: center;
     justify-content: center;
    transition: background 0.7s, transform 0.7s;
@@ -166,7 +166,6 @@ Link{
     height: 50px;
 }
 .myskills{
-    
-    height: 80vh;
+    height: 85vh;
 }
 }

@@ -15,7 +15,7 @@
 }
 .ct{
     width: 50%;
-    background: #6704a8;
+    background: #04009A;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,7 +129,7 @@ textarea::placeholder{
 }
 .social h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #6704a8;
+    color: #04009A;
     font-size: 50px;
 }
 .social p{

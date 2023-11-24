@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from "react";
-import Name from "../Images/name.jpg";
+import Name from "../Images/name1.gif";
 import "../css/Navbar.css";
 import ham from "../svg/ham1.svg";
 import close from "../svg/close2.svg";
@@ -96,14 +96,14 @@ function Navbar() {
             locpath==='/projects'?
             ""
             :
-            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/projects"onClick={() => hamburger(false)}>Projects</Link></li>
        }
           
             {
                locpath==='/contact'?
                ""
                :
-               <li><Link to ='/contact'>Contact</Link></li>
+               <li><Link to ='/contact'onClick={() => hamburger(false)}>Contact</Link></li>
           }
             </ul>
           </nav>

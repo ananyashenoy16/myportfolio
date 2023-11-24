@@ -18,6 +18,9 @@ function App() {
          <Route path='/projects' element={<Projects/>}/>
          <Route path="/contact" element={<Contact/>}/>
        </Routes>
+       <div className="footer">
+     <p> &#169; This Page is Owned by <span> Ananya K</span>| All Rights Reserved | </p>
+   </div>
      </BrowserRouter>
 
     </div>

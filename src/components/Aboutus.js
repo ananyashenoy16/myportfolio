@@ -12,22 +12,29 @@ function Aboutus() {
           <h1 class="subtitle">About Me</h1>
           <p>
             Hello World!<br/>
-             I am Ananaya Shenoy,a Passionate Full Stack Web Deveoloper.<br/>I am currently studying in 3rd Year
+             I am Ananya Shenoy,a Passionate Full Stack Web Deveoloper.<br/>I am currently studying in 3rd Year
             Computer Science and Engineering.I believe that <span> 'You can
             achieve Everything with Hardwork'</span> , I have also done Projects Like Shopping App and College Website Clone using HTML, CSS , JavaScript , PHP ,mySql.</p>
             My hobbies are Digital illustration and Mandala Arts.
             <div class="education">
                 <h1>Education</h1>
               <ul>
-                <li type="square">Computer Science and Engineering
-                 <p>I am studying at Canara Engineering College, Benjanapadavu.  </p>
+                <div class="e1">
+                <li type="square">Engineering
+                 <p>I am studying CSE Department at Canara Engineering College, Benjanapadavu.  </p>
+                 </li>
+                 <button>Know More</button></div>
+                 <div class="e1">
                  <li type="square">PUC
                  <p>I have Completed my PUC at Viveka PU College,Kota</p>
                 </li>
+                <button>Know More</button></div>
+                <div class="e1">
                  <li type="square">SSLC
                  <p>I have Completed my SSLC at Viveka English Medium High School,Kota </p>
                 </li>
-                </li>
+                <button>Know More</button></div>
+               
               </ul>
 
             </div>

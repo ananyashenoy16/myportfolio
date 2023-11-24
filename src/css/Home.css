@@ -28,7 +28,7 @@
  }
 
  .header-text h1{
-   text-shadow:0 0 10px #6704a8;
+   text-shadow:0 0 10px #5800FF;
     font-size: 50px;
     color: #fff;
     margin-left: 5px;
@@ -55,16 +55,16 @@
    font-weight: 500;
    border-radius:5px;
    color: #fff;
-   background-color: #6704a8;
+   background-color: #04009A;
  }
  .cv:hover{
-   color: #6704a8;
+   color: #5800FF;
    transition: 0.5s;
    background-color:white;
-   border:3px solid#6704a8 ;
+   border:3px solid#04009A ;
    outline: none;
    font-weight: 500;
-   box-shadow: 2px 2px 5px  #6704a8;
+   box-shadow: 2px 2px 5px #5800FF;
  }
  @keyframes animate
  {
@@ -74,10 +74,10 @@
    }
    18%,20%,50%,65%,80%,90%,100%{
       color:#fff;
-      text-shadow:0 0 10px #6704a8,
-      0 0 20px #6704a8,
-      0 0 40px#6704a8,
-      0 0 60px #6704a8
+      text-shadow:0 0 10px #04009A,
+      0 0 20px #04009A,
+      0 0 40px #04009A,
+      0 0 60px #04009A
       ;
       
    }

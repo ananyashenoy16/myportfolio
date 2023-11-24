@@ -17,7 +17,8 @@
     z-index: 3;
  }
  .logo{
- width:180px;
+ width:100px;
+ height: 100px;
  margin: 10px;
  margin-left:50px ;
  }
@@ -51,7 +52,7 @@
 }
 nav ul li a:hover{
    color:white;
-   background-color:#6704a8;
+   background-color:#04009a;
    padding: 5px;
    border-radius: 10px;
    font-size: 22px;

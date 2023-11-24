@@ -99,9 +99,7 @@ export const Contact = () => {
     </div>
     
    
-     <div className="footer">
-     <p> &#169; This Page is Owned by <span> Ananya K</span>| All Rights Reserved | </p>
-   </div>
+    
    </div>
    
   );

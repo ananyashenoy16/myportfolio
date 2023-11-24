@@ -1,4 +1,4 @@
-import character from "../Images/main.gif";
+import character from "../svg/mygif.jpg";
 import "../css/Home.css";
 import Aboutus from './Aboutus';
 import Contact from "./Contact";
