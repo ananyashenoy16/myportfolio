@@ -2,7 +2,7 @@ import React, { useState,useEffect } from "react";
 import Name from "../Images/name1.gif";
 import "../css/Navbar.css";
 import ham from "../svg/ham1.svg";
-import close from "../svg/close2.svg";
+import close from "../svg/close.svg";
 import { Link,useLocation } from "react-router-dom";
 import sun from '../svg/sun1.svg';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -18,6 +18,21 @@ function Navbar() {
   useEffect(() =>{
     setlocpath(location.pathname);
     }, [location]);
+
+//light-dark mode 
+
+  const toggleTheme = () => {
+   if(theme ==="dark-theme"){
+    setTheme("light-theme");
+   }
+   else{
+    setTheme("dark-theme");
+   }
+  }
+  const[theme,setTheme]=useState("dark-theme");
+  useEffect(() =>{
+    document.body.className= theme;
+  },[theme]);
   return (
     <div id="header">
       <div className="container">
@@ -61,7 +76,7 @@ function Navbar() {
               <img src={ham} alt="" class="ham"></img>
             </div>
             {/* <div id="sun" >
-              <img src={sun} alt="" class='sun'></img>
+              <img src={sun} alt="" class='sun' onClick={ () =>  toggleTheme()}></img>
             </div>  */}
         </nav>
       </div>

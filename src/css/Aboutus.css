@@ -64,7 +64,8 @@
  }
  .education .e1:hover {
    margin: 15px;
-   border:2px dotted #a59daa;
+   background: #04009A;
+   /* border:2px dotted #a59daa; */
    background:transparent;
  }
  .education h1{
@@ -97,6 +98,7 @@
       border-radius: 50%;
       width: 220px;
       height: 300px;
+      box-shadow:5px 5px 10px 7px hsl(242, 100%, 30%,0.7);
    }
    .about-col1{
      padding: 10px;
@@ -138,8 +140,8 @@
       margin: 10px;
       border-radius: 0px;
       padding: 7px;
-      background: #04009A;
-      /* border:2px dotted #04009A; */
+      /* background: #04009A; */
+      border:2px dotted #04009A;
       transition: 0.5s;
     }
     .education ul li{
@@ -155,5 +157,8 @@
       margin-top: 6px;
      border-radius: 20px;
       padding: 5px;
+    }
+    .education .e1:hover {
+      background: #04009A;
     }
  }

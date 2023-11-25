@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.dark-theme{
+  --primary-color:#000;
+  --secondary-color:#fff;
+}
+
+/* .light-theme{
+  --secondary-color:#000;
+  --primary-color:#3f3c8e;
+} */

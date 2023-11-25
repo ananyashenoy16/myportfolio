@@ -9,7 +9,7 @@
    color: aliceblue;
     height: 100px;
     position: relative;
-    background:black;
+    background:var(--primary-color);
     display: flex;
     padding-top: 15px;
     align-items: center;
@@ -32,13 +32,13 @@
     display: inline-block;
     list-style: none;
     margin:20px 30px;
-   
+    
     text-decoration: none;
     
     position: relative;
  }
  nav ul li a{
-   color:white;
+   color:var(--secondary-color);
    font-size: 20px;
    text-decoration: none;
  }
