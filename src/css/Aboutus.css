@@ -65,7 +65,7 @@
  .education .e1:hover {
    margin: 15px;
    border:2px dotted #a59daa;
-   background: #04009A ;
+   background:transparent;
  }
  .education h1{
     color: white;
@@ -94,6 +94,7 @@
       padding: 10px;
    }
    .myph{
+      border-radius: 50%;
       width: 220px;
       height: 300px;
    }
@@ -133,11 +134,12 @@
    }
    .education .e1{
       width: 155px;
-      height: 250px;
+      height: 200px;
       margin: 10px;
-      border-radius: 20px;
-      padding: 15px;
-      border:2px dotted #04009A;
+      border-radius: 0px;
+      padding: 7px;
+      background: #04009A;
+      /* border:2px dotted #04009A; */
       transition: 0.5s;
     }
     .education ul li{

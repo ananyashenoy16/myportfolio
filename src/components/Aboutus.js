@@ -1,4 +1,5 @@
-import myimage from "../Images/picture1.jpg";
+import myimage from "../Images/picture2.jpg";
+
 import "../css/Aboutus.css";
 
 function Aboutus() {
@@ -7,15 +8,16 @@ function Aboutus() {
       <div class="row">
         <div class="about-col1" data-aos="fade-up-right" >
           <img src={myimage} alt="myimage" class="myph" />
+          {/* <img src={myimage1} alt="myimage" class="my-ph" /> */}
         </div>
         <div class="about-col2" data-aos="zoom-in">
           <h1 class="subtitle">About Me</h1>
           <p>
             Hello World!<br/>
-             I am Ananya Shenoy,a Passionate Full Stack Web Deveoloper.<br/>I am currently studying in 3rd Year
+             I am Ananya Shenoy,a Passionate Full Stack Web Deveoloper.I am currently studying in 3rd Year
             Computer Science and Engineering.I believe that <span> 'You can
             achieve Everything with Hardwork'</span> , I have also done Projects Like Shopping App and College Website Clone using HTML, CSS , JavaScript , PHP ,mySql
-            My hobbies are Digital illustration and Mandala Arts..</p>
+            My hobbies are Digital illustration and Mandala Arts.</p>
            
             <div class="education" data-aos="zoom-out">
                 <h1>Education</h1>
