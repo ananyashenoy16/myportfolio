@@ -101,11 +101,11 @@ nav ul li a:hover{
 }
 .sidebar ul{
   position: fixed;
-  background: #04009a;
+  background: hsl(242, 100%, 30%,0.7);
   top: 0px;
   right:0;
   width: 200px;
-  height: 100vh;
+  height: 500px;
   padding-top: 0px;
   z-index: 999;
   transition:right 0.5s;

@@ -201,7 +201,7 @@ textarea::placeholder{
         padding: 15px;
     }
     .CPage{
-        height: 90vh;
+        height: 100vh;
         width: 100%;
         background: black;
         display: flex;
