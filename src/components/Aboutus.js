@@ -19,7 +19,7 @@ function Aboutus() {
             achieve Everything with Hardwork'</span> , I have also done Projects Like Shopping App and College Website Clone using HTML, CSS , JavaScript , PHP ,mySql
             My hobbies are Digital illustration and Mandala Arts.</p>
            
-            <div class="education" data-aos="zoom-out">
+            {/* <div class="education" data-aos="zoom-out">
                 <h1>Education</h1>
               <ul>
                 <div class="e1" >
@@ -40,7 +40,7 @@ function Aboutus() {
                
               </ul>
 
-            </div>
+            </div> */}
             </div>
        
       </div>
