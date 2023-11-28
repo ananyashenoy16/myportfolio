@@ -56,6 +56,7 @@
    border-radius:5px;
    color: #fff;
    background-color: #04009A;
+   margin: 20px;
  }
  .cv:hover{
    color: #04009A;
@@ -122,6 +123,7 @@
     font-size: 12px;
     padding: 4px;
    margin-top: 35px;
+   
    left: 40%;
 }
     /* .icons{

@@ -14,7 +14,7 @@ function Aboutus() {
           <h1 class="subtitle">About Me</h1>
           <p>
             Hello World!<br/>
-             I am Ananya Shenoy,a Passionate Full Stack Web Deveoloper.I am currently studying in 3rd Year
+             I am Ananya Shenoy,an Aspiring Full Stack Web Deveoloper.I am currently studying in 3rd Year
             Computer Science and Engineering.I believe that <span> 'You can
             achieve Everything with Hardwork'</span> , I have also done Projects Like Shopping App and College Website Clone using HTML, CSS , JavaScript , PHP ,mySql
             My hobbies are Digital illustration and Mandala Arts.</p>

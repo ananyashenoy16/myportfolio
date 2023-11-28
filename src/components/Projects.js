@@ -14,7 +14,7 @@ function Projects(){
                     <h2>CEC Website Clone</h2>
                     <div class="layer">
                         <h2>CEC Website Clone</h2>
-                        <a href="https://college-website-gray.vercel.app/"><img src={link} alt=""></img></a>
+                        <a href="https://college-website-gray.vercel.app/" target="_blank"><img src={link} alt=""></img></a>
                     </div>
                     </div>
                  <div class="card" data-aos="flip-right">
@@ -22,7 +22,7 @@ function Projects(){
                     <h2>Food-Menu</h2>
                     <div class="layer">
                         <h2>Food-Menu</h2>
-                        <a href="https://larky-laces.000webhostapp.com/"><img src={link} alt=""></img></a>
+                        <a href="https://larky-laces.000webhostapp.com/" target="_blank"><img src={link} alt=""></img></a>
                     </div>
     
                 </div>
@@ -31,7 +31,7 @@ function Projects(){
                     <h2>My Playlist</h2>
                     <div class="layer">
                         <h2>My Playlist</h2>
-                        <a href="https://spotifyclone-pi-ecru.vercel.app/"><img src={link} alt=""></img></a>
+                        <a href="https://spotifyclone-pi-ecru.vercel.app/" target="_blank"><img src={link} alt=""></img></a>
                     </div>
     
                 </div>

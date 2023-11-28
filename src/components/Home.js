@@ -18,7 +18,8 @@ function Home() {
           Hello, I am <br />
           <span contenteditable="true">Ananya K</span>
         </h1>
-        <a href="../Images/myCV.pdf" download="Ananya.pdf"><button class="cv">Download CV</button></a>
+        <a href="../Images/myCV.pdf" download="Ananya.pdf"><button class="cv">Resume</button></a>
+        <button class="cv">Contact me</button>
       </div>
     </div>
     <Aboutus/>
