@@ -17,10 +17,10 @@
     z-index: 3;
     transition: 0.2s;
  }
- .navbar:hover{
- 
+ /* .navbar:hover{
+   
    border-bottom: 2px solid #04009a;
- }
+ } */
  .logo{
  width:100px;
  height: 100px;
@@ -55,14 +55,23 @@
 .navbar ul .icons{
    display: none;
 }
-nav ul li a:hover{
-   color:white;
-   background-color:#04009a;
-   padding: 5px;
-   border-radius: 10px;
-   font-size: 22px;
+
+nav ul li a::after{
+   content:'';
+   width:0;
+   height:3px;
+   background: #04009a;
+   position: absolute;
+   left: 0;
+   bottom: -6px;
    transition: 0.5s;
 }
+nav ul li a:hover::after{
+   width:100%;
+}
+/* nav ul li a:active{
+   width: 100%;
+} */
 /* #header{
    width: 100%;
    position: fixed;
