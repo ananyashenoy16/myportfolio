@@ -17,7 +17,8 @@ function Aboutus() {
              I am Ananya Shenoy,an Aspiring Full Stack Web Deveoloper.I am currently studying in 3rd Year
             Computer Science and Engineering.I believe that <span> 'You can
             achieve Everything with Hardwork'</span> , I have also done Projects Like Shopping App and College Website Clone using HTML, CSS , JavaScript , PHP ,mySql
-            My hobbies are Digital illustration and Mandala Arts.</p>
+            My hobbies are Digital illustration and Mandala Arts.
+            <br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestiae consequatur quam blanditiis id! Et recusandae exercitationem corrupti illum, similique consequuntur. Dignissimos dolorem quae modi, hic mollitia dolor autem enim earum, maiores, necessitatibus cumque iste reiciendis consequatur deserunt distinctio consectetur delectus quidem. In aliquid, suscipit omnis fugit dolore nemo molestias.</p>
            
             {/* <div class="education" data-aos="zoom-out">
                 <h1>Education</h1>
