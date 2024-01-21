@@ -105,6 +105,7 @@ textarea::placeholder{
 
 /* --------------------------social------------------------- */
 .mysocial{
+    z-index: 99;
     background-color: black;
     width: 25%;
     right: 0;
@@ -113,6 +114,8 @@ textarea::placeholder{
     justify-content: center;
 }
 .social{
+    position: relative;
+    top: 30px;
     justify-content: center;
     align-items: center;
     width: fit-content;
@@ -201,7 +204,7 @@ textarea::placeholder{
         padding: 15px;
     }
     .CPage{
-        height: 100vh;
+        height: 125vh;
         width: 100%;
         background: black;
         display: flex;
@@ -235,10 +238,13 @@ textarea::placeholder{
         padding: 0;
     }
     .footer{
-        bottom: 5px;
-        font-size: 15px;
-        height: 30px;
-        padding: 30px;
+        z-index: 100;
+        bottom: 0px;
+        left: 0;
+right: 0;    
+    font-size: 15px;
+        height: 40px;
+        padding: 15px;
     }
     .all img{
         height: 40px;

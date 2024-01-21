@@ -90,8 +90,8 @@
  }
  @media (max-width:500px){
    #about{
-      height: 95vh;
-      z-index: 7;
+      height: 100vh;
+      
       padding: 10px;
    }
    .myph{
