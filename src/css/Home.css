@@ -176,6 +176,9 @@
     
     }
     @media (max-width: 375px){
+      *{
+         width: 100%;
+      }
       .header-text span{
          font-size: 30px;
        }
