@@ -7,7 +7,16 @@ function Aboutus() {
     <div id="about">
       <div class="row">
         <div class="about-col1" data-aos="fade-up-right" >
-          <img src={myimage} alt="myimage" class="myph" />
+          <div class="myimage">
+            <div class='content'>
+               <img src={myimage} alt="myimage" class="myph" />
+               <h2>Someone  famous<br/><span>Web Developer</span> </h2>
+                 <a href="#">Hire me</a>
+              
+
+            </div>
+         
+          </div>
           {/* <img src={myimage1} alt="myimage" class="my-ph" /> */}
         </div>
         <div class="about-col2" data-aos="zoom-in">
