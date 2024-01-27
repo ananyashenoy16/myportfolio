@@ -10,7 +10,7 @@ function Aboutus() {
           <div class="myimage">
             <div class='content'>
                <img src={myimage} alt="myimage" class="myph" />
-               <h2>Someone  famous<br/><span>Web Developer</span> </h2>
+               <h2>Ananya Shenoy<br/><span>Web Developer</span> </h2>
                  <a href="#">Hire me</a>
               
 

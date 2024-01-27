@@ -22,7 +22,7 @@ function Projects(){
                     <h2>Food-Menu</h2>
                     <div class="layer">
                         <h2>Food-Menu</h2>
-                        <a href="https://larky-laces.000webhostapp.com/" target="_blank"><img src={link} alt=""></img></a>
+                        <a href="https://scan-dine.000webhostapp.com/" target="_blank"><img src={link} alt=""></img></a>
                     </div>
     
                 </div>
